@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <!-- mybatis  映射文件
+ 	mapper 是根标签
+ 	namespace 是接口的全路径名称
+  -->
+<mapper namespace="com.hq.dao.UserDAO">
+
+	<select id="list" resultType="map">
+		select * from hq_user left join hq_dept on hq_user.did=hq_dept.did
+		<where>
+			<if test="mohu1 !=null and mohu1!=''">
+				and uname like concat('%',#{mohu1},'%')
+			</if>
+		</where>
+	</select>
+</mapper>

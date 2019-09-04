@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:14:33:20 +0800] "GET /user01/list.do HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:14:33:20 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:14:33:32 +0800] "GET /userManager/list.do HTTP/1.1" 500 14165 http-bio-8080-exec-3 538
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:14:35:54 +0800] "GET /userManager/list.do HTTP/1.1" 200 1400 http-bio-8080-exec-4 1074
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:14:35:54 +0800] "GET /userManager/js/jquery-1.8.2.min.js HTTP/1.1" 404 1019 http-bio-8080-exec-5 1
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:15:01:19 +0800] "GET /last_demo/list.do HTTP/1.1" 404 - http-bio-8080-exec-7 0
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:15:01:26 +0800] "GET /exam01/list.do HTTP/1.1" 404 - http-bio-8080-exec-8 0
+0:0:0:0:0:0:0:1 - - [02/Sep/2019:15:03:28 +0800] "GET /exam01/list.do HTTP/1.1" 404 - http-bio-8080-exec-1 0
